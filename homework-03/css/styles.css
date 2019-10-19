@@ -1,0 +1,155 @@
+body {font-family: "Playfair Display","Ubuntu", san-serif;
+
+ font-size: 14px; 
+line-height: 24px;
+margin: 0; }
+
+.main-menu {
+font-size: 0;
+margin-bottom: 94px;
+
+}
+
+.main-menu-item  {
+
+display: inline-block;
+margin-left: 90px; 
+margin-top: 72px }  
+
+.main-menu-item a:hover{
+    color: #03a9f4;
+}
+
+.main-menu-item:first-child {
+    margin-left:316px;
+}
+
+
+
+
+html{
+    box-sizing:border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+ }
+
+ .container{
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  .content-list{
+    list-style: none;
+    }
+  
+  .content-item{
+    display: inline-block;
+    width: 420px;
+  }
+  
+  .content-item:not(:nth-child(2n)){
+    margin-right: 60px;
+  }
+  .content-item:nth-child(-n + 2){
+    margin-bottom: 60px;
+  }
+  
+  .section-image{
+    margin-bottom: 20px;
+  }
+  
+  .article-title{
+    margin: 0 ; 
+    margin-bottom: 20px; 
+    font-size: 30px; 
+  }
+  
+  .article-content{
+    margin: 0; 
+    font-size: 14px; /*указываем нужный размер шрифта*/
+  }
+
+.main-menu-item {
+font-size: 14px;
+line-height: 24px;
+list-style: none;
+}
+.main-menu a {
+    color:#626262;
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+ 
+.list {
+    list-style: none;  }
+
+.list-section {
+    font-family: Ubuntu;
+    color: #b4ad9e;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-weight: 300
+    }
+
+
+.article-title {
+    color:#626262;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 ;
+    margin-bottom: 20px;
+    font-weight: 400   
+  
+}
+
+
+.article-content {
+    color:#626262;
+    font-size: 14px
+    line-height: 24px;
+    display: inline-block;
+    width: 420px;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border:0;
+    padding: 0;
+    white-space:nowrap;
+    clip-path:inset(100%);
+    clip: rect(0 0 0 0);
+    overflow:hidden;
+}
+
+.button1 {
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    height: 60px;
+    width: 164px;
+    margin: 51px;
+   margin-left: 40%;
+   margin-right: 60%;
+    
+}
+.button1 span {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 5px;
+    width: 5px;
+}
