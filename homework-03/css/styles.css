@@ -107,7 +107,7 @@ list-style: none;
     line-height: 36px;
     margin: 0 ;
     margin-bottom: 20px;
-    font-weight: 400   
+    font-weight: 400;   
   
 }
 
@@ -130,10 +130,10 @@ input[type="radio"].visually-hidden{
     border:0;
     padding: 0;
     white-space:nowrap;
-    clip-path:inset(100%);
     clip: rect(0 0 0 0);
     overflow:hidden;
 }
+
 
 .button1 {
     text-align: center;
