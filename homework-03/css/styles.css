@@ -49,7 +49,7 @@ img {
  }
 
  .container{
-    width: 900px;
+    width: 904px;
     margin: 0 auto;
   }
   
@@ -58,7 +58,8 @@ img {
     padding: 0px;
     margin: 0px;
     font-size: 0px;
-    margin-bottom: 182px
+    margin-bottom: 182px;
+    font-size: 14px;
     }
   
   .content-item{
