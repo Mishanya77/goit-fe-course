@@ -6,15 +6,21 @@ margin: 0; }
 
 .main-menu {
 font-size: 0;
-margin-bottom: 94px;
+padding: 0px;
+display: block;
+}
 
+.main-header {
+  padding-top: 74px;
+  padding-bottom: 102px;
 }
 
 .main-menu-item  {
 
 display: inline-block;
-margin-left: 90px; 
-margin-top: 72px }  
+margin-right: 110px;
+
+}  
 
 .main-menu-item a:hover{
     color: #03a9f4;
@@ -43,12 +49,16 @@ img {
  }
 
  .container{
-    width: 960px;
+    width: 900px;
     margin: 0 auto;
   }
   
   .content-list{
     list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 0px;
+    margin-bottom: 182px
     }
   
   .content-item{
@@ -83,6 +93,10 @@ font-size: 14px;
 line-height: 24px;
 list-style: none;
 }
+.main-menu-item:last-child {
+margin-right: 0px;
+}
+
 .main-menu a {
     color:#626262;
     text-transform: uppercase;
@@ -97,7 +111,9 @@ list-style: none;
     color: #b4ad9e;
     line-height: 17px;
     text-transform: uppercase;
-    font-weight: 300
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 26px;
     }
 
 
@@ -114,10 +130,9 @@ list-style: none;
 
 .article-content {
     color:#626262;
-    font-size: 14px
+    font-size: 14px;
     line-height: 24px;
-    display: inline-block;
-    width: 420px;
+    
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -144,12 +159,8 @@ input[type="radio"].visually-hidden{
     margin: 51px;
    margin-left: 40%;
    margin-right: 60%;
-    
+  
 }
-.button1 span {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 5px;
-    width: 5px;
+.button1 :hover{
+color: #03a9f4;
 }
