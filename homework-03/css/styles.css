@@ -7,7 +7,11 @@ margin: 0; }
 .main-menu {
 font-size: 0;
 padding: 0px;
-display: block;
+text-align: center;
+}
+
+.main-menu a {
+  display: block;
 }
 
 .main-header {
@@ -26,9 +30,7 @@ margin-right: 110px;
     color: #03a9f4;
 }
 
-.main-menu-item:first-child {
-    margin-left:316px;
-}
+
 
 
 
@@ -49,30 +51,43 @@ img {
  }
 
  .container{
-    width: 904px;
+    width: 900px;
     margin: 0 auto;
   }
-  
+  .list-section {
+    font-family: Ubuntu;
+    color: #b4ad9e;
+    line-height: 17px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 26px;
+    }
+
   .content-list{
     list-style: none;
-    padding: 0px;
-    margin: 0px;
-    font-size: 0px;
+    padding: 0;
+    margin: 0;
     margin-bottom: 182px;
-    font-size: 14px;
+    font-size: 0;
+    
     }
   
   .content-item{
     display: inline-block;
     width: 420px;
+    
   }
   
   .content-item:not(:nth-child(2n)){
     margin-right: 60px;
   }
-  .content-item:nth-child(-n + 2){
+  
+  .content-item:not(:nth-last-child(-n + 2)) {
     margin-bottom: 60px;
-  }
+    }
+  
   
   .section-image{
     margin-bottom: 20px;
@@ -95,7 +110,7 @@ line-height: 24px;
 list-style: none;
 }
 .main-menu-item:last-child {
-margin-right: 0px;
+margin-right: 0;
 }
 
 .main-menu a {
@@ -107,15 +122,7 @@ margin-right: 0px;
 .list {
     list-style: none;  }
 
-.list-section {
-    font-family: Ubuntu;
-    color: #b4ad9e;
-    line-height: 17px;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin: 0;
-    padding-bottom: 26px;
-    }
+
 
 
 .article-title {
@@ -157,11 +164,12 @@ input[type="radio"].visually-hidden{
     line-height: 24px;
     height: 60px;
     width: 164px;
-    margin: 51px;
-   margin-left: 40%;
-   margin-right: 60%;
-  
+   display: block;
+   margin: 0 auto ;
 }
 .button1 :hover{
 color: #03a9f4;
+}
+.content {
+  padding-bottom: 71px;
 }
