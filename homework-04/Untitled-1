@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Module 04 Homework-01</title>
+  </head>
+  <body>
+    <h1 class="visually-hidden">Module 04 Homework-01</h1>
+    <header>
+      <nav class="menu container clearfix">
+        <a class="logo" href="#">
+          <img
+            src="https://picua.org/images/2019/10/23/368f7c471f4838e3f3f2c291e36a3788.png"
+            alt="Site logo"
+            width="78"
+            height="21"
+          />
+        </a>
+        <ul class="menu-section clearfix">
+          <li class="menu-section-navigation"><a href="#">Home</a></li>
+          <li class="menu-section-navigation"><a href="#">About us</a></li>
+          <li class="menu-section-navigation"><a href="#">Page</a></li>
+          <li class="menu-section-navigation"><a href="#">Shop</a></li>
+          <li class="menu-section-navigation"><a href="#">Blog</a></li>
+          <li class="menu-section-navigation"><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- GALLERY PRODUCTS SECTION -->
+      <section class="features">
+        <div class="container">
+          <h2 class="section-title">Featured products</h2>
+          <ul class="features-menu clearfix">
+            <li class="features-menu-item">
+              <a href="#" class="wrapper">
+                <img
+                  src="https://picua.org/images/2019/10/23/ff9352e75c3afd5aa544ee4956feb0fb.jpg"
+                  alt="Blue Tshirt"
+                  width="255"
+                  height="322"
+                />
+                <p class="item-name">Blue Tshirt</p>
+                <p class="item-price">26</p>
+              </a>
+            </li>
+            <li class="features-menu-item">
+              <a href="#" class="wrapper">
+                <img
+                  src="https://picua.org/images/2019/10/23/487d891c59359f6b6b01bdffe2d4d8e2.jpg"
+                  alt="Woman shirt"
+                  width="255"
+                  height="322"
+                />
+                <p class="item-name">Woman shirt</p>
+                <p class="item-price">31</p>
+              </a>
+            </li>
+            <li class="features-menu-item">
+              <a href="#" class="wrapper">
+                <img
+                  src="https://picua.org/images/2019/10/23/7a30a3178f144efe2e5d4e5c3de2b4cb.jpg"
+                  alt="Yellow Tshirt"
+                  width="255"
+                  height="322"
+                />
+                <p class="item-name">Yellow Tshirt</p>
+                <p class="item-price">21</p>
+              </a>
+            </li>
+            <li class="features-menu-item">
+              <a href="#" class="wrapper">
+                <img
+                  src="https://picua.org/images/2019/10/23/244e716fb8c3c6083b95c3808a0297a2.jpg"
+                  alt="Cool lingerie"
+                  width="255"
+                  height="322"
+                />
+                <p class="item-name">Cool lingerie</p>
+                <p class="item-price">56</p>
+              </a>
+            </li>
+            <li class="features-menu-item">
+              <a href="#" class="wrapper">
+                <img
+                  src="https://picua.org/images/2019/10/23/a950a6ed01b687484bbb19621bb8df3d.jpg"
+                  alt="Blue Tshirt"
+                  width="255"
+                  height="322"
+                />
+                <p class="item-name">Blue Tshirt</p>
+                <p class="item-price">26</p>
+              </a>
+            </li>
+            <li class="features-menu-item">
+              <a href="#" class="wrapper">
+                <img
+                  src="https://picua.org/images/2019/10/23/5d92fc7b50ee093152ad9e5e75336d78.jpg"
+                  alt="Woman shirt"
+                  width="255"
+                  height="322"
+                />
+                <p class="item-name">Woman shirt</p>
+                <p class="item-price">31</p>
+              </a>
+            </li>
+            <li class="features-menu-item">
+              <a href="#" class="wrapper">
+                <img
+                  src="https://picua.org/images/2019/10/23/bed8178da72955e1c71d623915abb84b.jpg"
+                  alt="Yellow Tshirt"
+                  width="255"
+                  height="322"
+                />
+                <p class="item-name">Yellow Tshirt</p>
+                <p class="item-price">21</p>
+              </a>
+            </li>
+            <li class="features-menu-item">
+              <a href="#" class="wrapper">
+                <img
+                  src="https://picua.org/images/2019/10/23/2483775e84e694eb6cfdd055b9870c96.jpg"
+                  alt="Cool lingerie"
+                  width="255"
+                  height="322"
+                />
+                <p class="item-name">Cool lingerie</p>
+                <p class="item-price">56</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- BLOG SECTION -->
+      <section class="blog">
+        <div class="container">
+          <h2 class="section-title">Latest news</h2>
+          <ul class="blog-news clearfix">
+            <li class="blog-content">
+              <img
+                class="blog-img"
+                src="https://picua.org/images/2019/10/23/8909102e6c7b2779c904efa0ac1b40b0.jpg"
+                alt="Best advise how to find low cost store"
+                width="350"
+                height="262"
+              />
+              <h3 class="blog-article">
+                Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+              </h3>
+              <p class="blog-text">
+                Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
+                vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                Nam nec tellus a odio tincidunt
+              </p>
+              <a href="#" class="load">Read more</a>
+            </li>
+            <li class="blog-content">
+              <img
+                class="blog-img"
+                src="https://picua.org/images/2019/10/23/fa4101232ad75ddfe42e2cda9cf61b43.jpg"
+                alt="Fashion"
+                width="350"
+                height="262"
+              />
+              <h3 class="blog-article">
+                Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+              </h3>
+              <p class="blog-text">
+                Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
+                vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                Nam nec tellus a odio tincidunt
+              </p>
+              <a href="#" class="load">Read more</a>
+            </li>
+            <li class="blog-content">
+              <img
+                class="blog-img"
+                src="https://picua.org/images/2019/10/23/986a43ab0a807c0d693feeed5e794517.jpg"
+                alt="Best ways how to get to the mall"
+                width="350"
+                height="262"
+              />
+              <h3 class="blog-article">
+                Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+              </h3>
+              <p class="blog-text">
+                Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
+                vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                Nam nec tellus a odio tincidunt
+              </p>
+              <a href="#" class="load">Read more</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
