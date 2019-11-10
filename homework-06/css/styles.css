@@ -40,7 +40,8 @@ input[type="radio"].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* HEADER */
+/* Header */
+
 .page-header {
     padding-top: 28px;
     padding-bottom: 132px;
@@ -108,7 +109,8 @@ input[type="radio"].visually-hidden {
 }
 
 
-/* SERVICE SECTION */
+/* Service section */
+
 .services {
     padding-bottom: 92px;
 }
@@ -144,19 +146,10 @@ input[type="radio"].visually-hidden {
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  /* .services-list-item {
-   width: 380px;
-   position: relative;   
-   padding-left: 
-  } */
   .services-list-item {
     width: 382px;
     padding-left: 82px;}
 
-
-/* .services-list-item :nth-child(-n+3) {
-      margin-bottom: 100px;
-    } */
 .service-list-title {
     font-family:  "Montserrat", regular;
     font-size: 14px;
@@ -290,8 +283,8 @@ input[type="radio"].visually-hidden {
     bottom: 0;
     left: 0;
     background: linear-gradient(
-      rgba(238, 120, 129, 0.9),
-      rgba(250, 180, 130, 0.9)
+      rgba(243, 129, 129, 0.9),
+      rgba(252, 227, 138, 0.9)
     );
     box-shadow: 12px 12px #95e1d3;
     opacity: 0;
@@ -300,6 +293,14 @@ input[type="radio"].visually-hidden {
     transition-timing-function: linear;
   }
   
+  .Rectangle_14 {
+    background-image: -moz-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+  }
+  
+
+
   .overlay-wrapper {
     position: relative;
   }
@@ -391,21 +392,6 @@ input[type="radio"].visually-hidden {
     color: #cccccc;
 }
 
-  /* .input-text::placeholder {
-    font-size: 15px;
-    font-family: "Roboto", sans-serif;
-    color: rgb(204, 204, 204);
-    font-weight: 300;
-    font-style: italic;
-    line-height: 1.6;
-    text-align: left;
-  }
-  .input-text:hover::placeholder,
-  .input-text:focus::placeholder {
-    transform: scale(1) translateX(100%);
-    transform-origin: 0% 0%;
-    transition: 0.5s all;
-  } */
   
   .input-box-btn {
     font-family: "Montserrat", bold;
@@ -417,3 +403,4 @@ input[type="radio"].visually-hidden {
     padding: 15px 33px;
     cursor: pointer;
   }
+
