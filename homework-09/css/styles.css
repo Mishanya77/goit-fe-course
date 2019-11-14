@@ -209,7 +209,19 @@ h4 {
 
 .partner {
     padding-bottom: 20px;
+    border-radius: 50%;
 }
+
+.Layer_6 {
+    background-image: url("Layer 6.png");
+    position: absolute;
+    left: 452px;
+    top: 824px;
+    width: 123px;
+    height: 123px;
+    z-index: 14;
+  }
+  
 
 .small {
     position: absolute;
