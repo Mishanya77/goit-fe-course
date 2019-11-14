@@ -66,10 +66,6 @@ a {
     display: block;
 }
 
-.container {
-    width: 284px;
-    margin: 0 auto;
-}
 
 /* HEADER */
 header {
@@ -83,8 +79,10 @@ header {
     margin: 0;
     padding: 0;
     min-width: 100%;
-    /* margin-bottom: 28px; */
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
 
 }
 
@@ -101,14 +99,13 @@ header {
 .button {
     list-style: none;
     justify-content: center;
-    padding: 0;
-    margin: 0;
-    display: flex;
     outline: none;
-    margin-bottom: 114px;
+}
+.hdr1 {
+    margin-bottom: 116px;
 }
 
-.button button {
+.button {
     width: 90px;
     font-family: 'MontserratB', sans-serif;
     font-size: 14px;
@@ -134,8 +131,7 @@ button:focus {
 
 
 .promo-title {
-    width: 290px;
-    margin: 0 auto;
+    margin: 36px auto 10px;
     color: #ffffff;
     font-family: 'MontserratB', sans-serif;
     font-size: 30px;
@@ -147,7 +143,6 @@ button:focus {
 }
 
 .promo-subtitle {
-    width: 218px;
     margin: 0 auto 16px;
     font-family: 'RobotoL', sans-serif;
     font-size: 18px;
@@ -156,7 +151,7 @@ button:focus {
     color: #ffffff;
 }
 
-.promo button {
+.promo-btn {
     display: block;
     width: 280px;
     font-family: 'MontserratB', sans-serif;
@@ -181,7 +176,6 @@ h4 {
     letter-spacing: 0;
     color: #333333;
     text-align: center;
-    width: 268px;
     line-height: 1.2;
     margin: 0 auto;
     margin-top: 70px;
@@ -290,7 +284,7 @@ h4 {
 }
 
 .otr {
-    width: 280px;
+    /* width: 280px; */
     height: 40px;
     font-family: 'MontserratB', sans-serif;
     font-size: 14px;
@@ -308,10 +302,7 @@ h4 {
 
 
 @media (min-width: 768px) and (max-width: 939px) {
-    .container {
-        width: 668px;
-
-    }
+    
 
     header {
         background-image: url(../img/section1bg768.png);
@@ -352,20 +343,21 @@ h4 {
         margin: 0 auto 34px;
     }
 
+   
+
     .promo button {
         width: 225px;
         padding: 10px 2px;
     }
 
     h4 {
-        width: 404px;
         margin-bottom: 32px;
     }
 
     .partners_list {
+        justify-content: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 464px;
 
     }
 
@@ -384,18 +376,19 @@ h4 {
     .partners_item.four {
         order: 4;
     }
+
     section button {
         width: 192px;
         padding: 10px 2px;
     }
+    .otr {
+        width: 280px;  
+    }
 }
 
 @media (min-width: 940px) {
+ 
 
-    .container {
-        width: 940px;
-        margin: 0 auto;
-    }
 
 
     header {
@@ -443,13 +436,11 @@ h4 {
     }
 
     h4 {
-        width: 404px;
         margin-bottom: 32px;
     }
 
     .partners_list {
         flex-direction: row;
-        width: 940px;
 
     }
 
@@ -473,4 +464,7 @@ h4 {
         width: 192px;
         padding: 10px 2px;
     }
+    /* .otr {
+        width: 280px;  
+    } */
 }
