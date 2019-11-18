@@ -1,0 +1,111 @@
+.services {
+  padding-bottom: 92px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.services {
+  padding-bottom: 92px;
+
+  &__title {
+    font-family: $MontFont;
+    font-size: 30px;
+    color: $service-color;
+    text-align: center;
+
+  
+
+   &::after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 4px;
+    background-color: #f38181;
+    margin: 40px auto 66px; }
+  }
+&__title-1 {
+  display: block;
+    margin-top: 36px;
+    margin-bottom: 22px;
+    font-family: $kushanFont;
+    font-size: 24px;
+    color: $service-color;
+    text-align: center;
+}
+
+&__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  &--item {
+    width: 382px;
+    padding-left: 82px;}
+
+    &:first-child {
+      background-image: url(../images/ALARM.png);
+      background-repeat: no-repeat;
+      background-position: 5% 0;
+      margin-bottom: 98px;
+    }
+
+    &:nth-child(2) {
+      background-image: url(../images/line2.png);
+      background-repeat: no-repeat;
+      background-position: 5% 0;
+      margin-bottom: 98px;
+    }
+
+    &:nth-child(3) {
+      background-image: url(../images/comp.png);
+      background-repeat: no-repeat;
+      background-position: 5% 0;
+      margin-bottom: 98px;
+    }
+
+    &:nth-child(4) {
+      background-image: url(../images/BOOK.png);
+      background-repeat: no-repeat;
+      background-position: 5% 0;
+      margin-bottom: 98px;
+    }
+
+    &:nth-child(5) {
+      background-image: url(../images/HOME.png);
+      background-repeat: no-repeat;
+      background-position: 5% 0;
+      margin-bottom: 98px;
+    }
+
+    &:nth-child(6) {
+      background-image: url(../images/IMAGE.png);
+      background-repeat: no-repeat;
+      background-position: 5% 0;
+      margin-bottom: 98px;
+    }
+
+  }
+
+  &--title {
+    font-family: $MontFont;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $service-color;
+    margin-bottom: 18px;    
+  }
+
+
+&__text {
+  font-family: $RobotoFont;
+  font-size: 15px;
+  line-height: 24px;
+  color: $text-color;
+}
+}

@@ -1,0 +1,90 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 12px 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer {
+  &__text {
+    font-size: 14px;
+    font-family: $MontFont;
+    color: $service-color;
+    font-weight: 500;
+  }
+
+  &__link {
+    color: #f38181;
+  }
+
+  &__input-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  &__input-text {
+    font-size: 15px;
+    font-family: $RobotoFont;
+    color: $service-color;
+    font-weight: 300;
+    font-style: italic;
+    border: 1px solid #e7e7e7;
+    border-right: none;
+    padding: 12px;
+
+  }
+
+  &__input-text::-webkit-input-placeholder {
+    color: #cccccc;
+  }
+
+  &__input-text::-moz-placeholder {
+    color: #cccccc;
+  }
+
+  &__input-text:-ms-input-placeholder {
+    color: #cccccc;
+  }
+
+  &__input-text::-ms-input-placeholder {
+    color: #cccccc;
+  }
+
+  &__input-text::placeholder {
+    color: #cccccc;
+  }
+
+
+  &__input-box-btn {
+    font-family: $MontFont;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    background-color: #95e1d3;
+    font-size: 14px;
+    padding: 15px 33px;
+    cursor: pointer;
+  }
+}
