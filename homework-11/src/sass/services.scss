@@ -48,7 +48,7 @@
   &--item {
     width: 382px;
     padding-left: 82px;}
-
+  
     &:first-child {
       background-image: url(../images/ALARM.png);
       background-repeat: no-repeat;
@@ -57,7 +57,7 @@
     }
 
     &:nth-child(2) {
-      background-image: url(../images/line2.png);
+      background-image: url(../images/LINE-GRAPH.png);
       background-repeat: no-repeat;
       background-position: 5% 0;
       margin-bottom: 98px;
@@ -84,15 +84,10 @@
       margin-bottom: 98px;
     }
 
-    &:nth-child(6) {
-      background-image: url(../images/IMAGE.png);
-      background-repeat: no-repeat;
-      background-position: 5% 0;
-      margin-bottom: 98px;
-    }
-
+   
   }
-
+  }
+  
   &--title {
     font-family: $MontFont;
     font-size: 14px;
@@ -107,5 +102,4 @@
   font-size: 15px;
   line-height: 24px;
   color: $text-color;
-}
 }
