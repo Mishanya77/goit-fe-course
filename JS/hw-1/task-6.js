@@ -1,4 +1,5 @@
 "use strict";
+function task6(){
 let input = null;
 let total = 0;
 
@@ -11,4 +12,4 @@ do {
     total += numberInput;
   }
 } while (input !== null);
-console.log(total);
+console.log(total);}

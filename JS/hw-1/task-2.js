@@ -1,4 +1,7 @@
 "use strict";
+
+function task2()
+{
 const total = 100;
 let ordered = 50;
 
@@ -10,4 +13,4 @@ if (isEnough) {
 } else {
   message = `"На складе недостаточно твоаров!"`;
 }
-console.log(message);
+console.log(message);}

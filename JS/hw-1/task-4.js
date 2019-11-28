@@ -1,4 +1,5 @@
 "use strict";
+function task4(){
 let credits = 23580;
 const pricePerDroid = 3000;
 let message;
@@ -14,4 +15,4 @@ if (userInput === null) {
   message = `Вы купили ${userInput} дроидов, на счету осталось ${lastCredit} кредитов.`;
 }
 
-console.log(message);
+console.log(message);}

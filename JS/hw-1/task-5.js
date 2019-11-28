@@ -1,4 +1,5 @@
 "use strict";
+function task5(){
 let inputMessage = prompt("В какую страну Вы хотели бы оформить доставку?");
 let cost;
 if (inputMessage !== null) {
@@ -33,4 +34,5 @@ if (inputMessage !== null) {
 }
 if (cost) {
   console.log(`Доставка в ${inputMessage} будет стоить ${cost} кредитов.`);
+}
 }
