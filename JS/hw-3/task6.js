@@ -1,8 +1,3 @@
-// Напиши функцию calculateTotalPrice(arr, productName),
-//  которая получает массив объектов и имя продукта (значение свойства name).
-//   Возвращает общую стоимость продукта (цена * количество).
-
-// Вызовы функции для проверки работоспособности твоей реализации.
 "use strict"
 
 const products = [
@@ -15,9 +10,6 @@ const products = [
 const calculateTotalPrice = function (arr, productName) {
     let total=0;
     for(const product of products) {
-        // if(productName in product){
-        //     total*=product[productName];
-        // }
         if(product.name==productName){
             total=product.price*product.quantity;
             break;
