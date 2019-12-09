@@ -24,7 +24,7 @@ const Transaction = {
      */
     createTransaction(amount, type) {
         return {
-            id: Transaction.length,
+            id: transaction.length,
             amount,
             type,
         };
@@ -64,7 +64,9 @@ const Transaction = {
     /*
      * Метод возвращает текущий баланс
      */
-    getBalance() {},
+    getBalance() {
+        return this.balance
+    },
   
     /*
      * Метод ищет и возвращает объект транзации по id
