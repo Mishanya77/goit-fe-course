@@ -76,4 +76,4 @@ function closeLightBox(e) {
   }
   window.removeEventListener("keydown", closeLightBox);
   lightbox.classList.remove("is-open");
-}
+} 
