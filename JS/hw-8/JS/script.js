@@ -15,7 +15,8 @@ const markup = galleryItems.reduce(
         <a class="gallery__link" href="${original}">
         <img
         class="gallery__image"
-        src="${preview}"   
+        src="./img/placeholder.png"
+        data-lazy="${preview}"
         data-source="${original}"
         alt="${description}" />
         <span class="gallery__icon">
