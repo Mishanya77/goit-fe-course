@@ -20,8 +20,7 @@ const randomIntegerFromInterval = (min, max) => {
 
 refs.btnStart.addEventListener("click", changeColor);
 refs.btnStop.addEventListener("click", stop);
-function changeColor(e) {
-  e.preventDefault();
+function changeColor() {
   if (refs.isActive) {
     return;
   }
@@ -32,9 +31,7 @@ function changeColor(e) {
   }, 1000);
 }
 
-function stop(e) {
-  e.preventDefault();
-
+function stop() {
   refs.isActive = false;
   clearInterval(refs.color);
 }
