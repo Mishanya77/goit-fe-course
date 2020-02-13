@@ -11,27 +11,22 @@ const refs = {
   btnStart: document.querySelector('button[data-action="start"]'),
   btnStop: document.querySelector('button[data-action="stop"]'),
   body: document.querySelector("body"),
-  isActive: false,
-  color: ""
 };
+let interval;
+
 const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
 
-refs.btnStart.addEventListener("click", changeColor);
-refs.btnStop.addEventListener("click", stop);
-function changeColor() {
-  if (refs.isActive) {
-    return;
-  }
-  refs.isActive = true;
-  refs.color = setInterval(() => {
-    refs.body.style.background =
-      colors[randomIntegerFromInterval(0, colors.length)];
+refs.btnStart.addEventListener('click', ()=>{
+  interval = setInterval(() => {
+    refs.body.style.backgroundColor = colors[randomIntegerFromInterval(0, colors.length)];
+    
   }, 1000);
-}
+  refs.btnStart.disabled = true;
+})
 
-function stop() {
-  refs.isActive = false;
-  clearInterval(refs.color);
-}
+refs.btnStop.addEventListener('click', ()=>{
+  clearInterval(interval);
+  refs.btnStart.disabled = false;
+});
