@@ -27,6 +27,8 @@ function changeColor(e){
   }, 1000);
   refs.btnStart.disabled = true;
   refs.btnStop.disabled = false;
+  refs.btnStart.removeEventListener('click',changeColor);
+  refs.btnStop.addEventListener('click', stop);
 };
 
 refs.btnStop.addEventListener('click', stop);
@@ -35,4 +37,6 @@ function stop(e){
   clearInterval(interval);
   refs.btnStart.disabled = false;
   refs.btnStop.disabled = true;
+  refs.btnStop.removeEventListener('click', stop);
+  refs.btnStart.addEventListener('click',changeColor);
 };
