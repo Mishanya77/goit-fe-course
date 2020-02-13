@@ -18,15 +18,21 @@ const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
 
-refs.btnStart.addEventListener('click', ()=>{
+refs.btnStart.addEventListener('click',changeColor);
+
+function changeColor(e){
   interval = setInterval(() => {
     refs.body.style.backgroundColor = colors[randomIntegerFromInterval(0, colors.length)];
     
   }, 1000);
   refs.btnStart.disabled = true;
-})
+  refs.btnStop.disabled = false;
+};
 
-refs.btnStop.addEventListener('click', ()=>{
+refs.btnStop.addEventListener('click', stop);
+
+function stop(e){
   clearInterval(interval);
   refs.btnStart.disabled = false;
-});
+  refs.btnStop.disabled = true;
+};
