@@ -4,6 +4,7 @@ import countryListItemsTemplate from '../src/template/countries-list-item.hbs';
 import countryListTemplate  from './template/countries-list.hbs';
 import debounce from 'lodash.debounce';
 import PNotify from '../node_modules/pnotify/dist/es/PNotify.js';
+import PNotifyS from '../node_modules/pnotify/dist/PNotifyBrightTheme.css'
 
 
 const refs = {
@@ -43,7 +44,10 @@ fetchCountries(searchQuery).then(data => {
     } else if (data.length ===1){
         insertListItem(markup);
     } else {
-        alert('Nothing found!!')
+        PNotify.error({
+            title: 'Oh no!!!',
+            text: 'Nothing found!!!!',
+        });
     }
 });
 };
